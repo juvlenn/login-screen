@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: url(images/login.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color : #fff;
+  border-radius: 10px;
+  padding: 30px 40px
+}
+
+
+.wrapper1 {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color : #fff;
+  border-radius: 10px;
+  padding: 30px 40px
+}
+
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.wrapper1 h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+
+
+.wrapper .input-box {
+    position: relative;
+  width: 100%;
+  height: 50px;
+margin: 30px 0;
+
+}
+
+
+
+.wrapper1 .input-box {
+    position: relative;
+  width: 100%;
+  height: 50px;
+margin: 30px 0;
+
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+
+}
+
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box i 
+{
+  position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+fontsize: 20px;
+}
+
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+ 
+.remember-forgot label input {
+accent-color: #fff;
+margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+
+.wrapper .btn {
+  width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px ;
+    box-shadow: 0 0 10px rgba(0, 0, 1, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.wrapper .btn:hover {
+  background: #000000;
+  color: #fff;
+  animation: rgbGlow 3s linear infinite;
+    text-shadow: 0 0 10px currentColor;
+transform: scale(1.10);
+}
+
+@keyframes rgbGlow {
+  0% {
+    color: #ff0000; /* Kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+  33% {
+    color: #00ff00; /* Yeşil */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  }
+  66% {
+    color: #0000ff; /* Mavi */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;
+  }
+  100% {
+    color: #ff0000; /* Tekrar kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.wrapper .register-link p a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.wrapper .register-link p a:hover {
+  text-decoration: underline;
+    color: #000000;
+}
+
+.copyright {
+  text-align: center;
+  position: fixed;
+    bottom: 10px;
+    font-weight: 900;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+
+
+.wrapper1 .btn {
+  width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px ;
+    box-shadow: 0 0 10px rgba(0, 0, 1, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+
+.wrapper1 .btn:hover {
+  background: #000000;
+  color: #fff;
+  animation: rgbGlow 3s linear infinite;
+    text-shadow: 0 0 10px currentColor;
+transform: scale(1.10);
+}
+
+@keyframes rgbGlow {
+  0% {
+    color: #ff0000; /* Kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+  33% {
+    color: #00ff00; /* Yeşil */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  }
+  66% {
+    color: #0000ff; /* Mavi */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;
+  }
+  100% {
+    color: #ff0000; /* Tekrar kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+}
+
+
+
+.wrapper1 .login-link {
+    font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+
+
+
+.wrapper1 .login-link p a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.wrapper1 .login-link p a:hover {
+  text-decoration: underline;
+    color: #000000;
+}
+
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 36px;
+  animation: rgbGlow 10s linear infinite;
+    text-shadow: 0 0 10px currentColor;
+transform: scale(1.10);
+}
+
+@keyframes rgbGlow {
+  0% {
+    color: #ff0000; /* Kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+  33% {
+    color: #00ff00; /* Yeşil */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  }
+  66% {
+    color: #0000ff; /* Mavi */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;
+  }
+  100% {
+    color: #ff0000; /* Tekrar kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+}
+
+
+
+.wrapper1 h1 {
+  text-align: center;
+  font-size: 36px;
+  animation: rgbGlow 10s linear infinite;
+    text-shadow: 0 0 10px currentColor;
+transform: scale(1.10);
+}
+
+@keyframes rgbGlow {
+  0% {
+    color: #ff0000; /* Kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+  33% {
+    color: #00ff00; /* Yeşil */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+  }
+  66% {
+    color: #0000ff; /* Mavi */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;
+  }
+  100% {
+    color: #ff0000; /* Tekrar kırmızı */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+  }
+}
+
+
+
+
+
+
+/* MOBİL UYUMLULUK EKLENTİLERİ */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+  }
+
+  .wrapper, .wrapper1 {
+    width: 95%;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+  }
+
+  .wrapper h1, .wrapper1 h1 {
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .input-box {
+    height: 45px;
+    margin: 20px 0;
+  }
+
+  .input-box input {
+    padding: 15px 40px 15px 15px;
+    font-size: 14px;
+  }
+
+  .input-box i {
+    right: 15px;
+    font-size: 18px;
+  }
+
+  .remember-forgot {
+    flex-direction: column;
+    gap: 10px;
+    margin: -10px 0 10px;
+  }
+
+  .btn {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .register-link, .login-link {
+    font-size: 13px;
+  }
+
+  .copyright {
+    position: static;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}
+
+/* DOKUNMATİK OPTİMİZASYONLARI */
+.btn, input, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* MOBİL KLVYE OPTİMİZASYONU */
+input[type="text"], input[type="password"], input[type="email"] {
+  inputmode: "text";
+}
+
+
+@media screen and (orientation: landscape) {
+  .wrapper, .wrapper1 {
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+}
+
